@@ -1,0 +1,32 @@
+Funcionamiento:
+
+ListaA tiene las funciones: 
+	Agregar una lista
+	Cambiar el contenido del objeto op
+ListaB tiene las funciones:
+	Agregar números
+	
+
+Al instanciar una lista de tipo ListaA, esta podra agregar objetos del mismo tipo y dentro
+De estos se podrán realizar operaciones con el contenido de lista.
+
+Lista podrá tener las listas de números enteros, las cuales podrán realizar operaciones como: sumas o restas
+
+
+El objeto que se instancie de ListaA es un elemento observado el cual puede agregar observadores
+o eliminarlos.
+
+Los observadores podrán obtener la información de la respuestas y que tipo de operación
+a sido utilizada.
+
+Cuando se agregue un nuevo arreglo de tipo ListaB se notificara a los observadores enlazados que dentro del observado
+Se ha efectuado una operación con el nuevo arreglo.
+
+La interfaz Operación contiene dos métodos:
+	realizarOperacion() que recibe como parámetro un array lleno de numeros(array B)
+	y getOperacion()
+
+luego tiene dos clases Suma y Resta esta estructura ha sido pensada para que en un futuro
+se le puedan agregar mas operaciones.  En cada una de las clases mensionadas anteriormente
+se implementa la interfaz Operacion y sobrescriben los metodos para poder hacer las operaciones
+con los numeros que contiene el array (array B).
