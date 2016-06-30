@@ -4,4 +4,15 @@ interface Operacion{
   public function getOperacion();
 
 }
+
+Class Suma implements Operacion{
+
+
+}
+
+Class Resta implements Operacion{
+
+	
+}
+
 ?>
