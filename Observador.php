@@ -1,7 +1,7 @@
 <?php
-interface Observado{
-  public function actualizar($b);
-  public function getNumero($b);
+interface Observador{
+  public function actualizar();
+  public function getNumero();
   public function getOperacion();
 
 }

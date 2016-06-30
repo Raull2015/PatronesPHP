@@ -1,10 +1,16 @@
 <?php
 
 	class ListaB {
-		$listaEnteros = array();
+		private $listaEnteros;
 
+		public function __construct(){
+			$this->listaEnteros = array();
+		}
 		public function agregarNumero($num){
-			array_push($listaEnteros, $num)
+			array_push($this->listaEnteros, $num);
+		}
+		public function getListaEnteros(){
+			return $this->listaEnteros;
 		}
 	}
 ?>

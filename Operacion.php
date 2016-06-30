@@ -6,18 +6,17 @@ interface Operacion{
 }
 
 Class Suma implements Operacion{
+
 	public function realizarOperacion($listaB){
 		$resultado = 0;
-		Foreach ($listaB as $a){
-
-			$resultado = $resultado + $a
+		Foreach ($listaB as $a ){
+			$resultado = $resultado + $a;
 		}
-
 		return $resultado;
 	}
 
 	public function getOperacion(){
-    return "+"
+    return "+";
 	}
 
 
@@ -29,14 +28,13 @@ Class Resta implements Operacion{
 		$resultado = 0;
 		Foreach ($listaB as $a){
 
-			$resultado = $resultado - $a
+			$resultado = $resultado - $a;
 		}
-
 		return $resultado;
 	}
 
 	public function getOperacion(){
-    return "-"
+    return "-";
 	}
 
 }
