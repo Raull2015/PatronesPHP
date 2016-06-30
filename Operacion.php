@@ -10,14 +10,14 @@ Class Suma implements Operacion{
 		$resultado = 0;
 		Foreach ($listaB as $a){
 
-			$resultado = $resultado + $a			
+			$resultado = $resultado + $a
 		}
 
 		return $resultado;
 	}
 
 	public function getOperacion(){
-
+    return "+"
 	}
 
 
@@ -29,14 +29,14 @@ Class Resta implements Operacion{
 		$resultado = 0;
 		Foreach ($listaB as $a){
 
-			$resultado = $resultado - $a			
+			$resultado = $resultado - $a
 		}
 
 		return $resultado;
 	}
 
 	public function getOperacion(){
-
+    return "-"
 	}
 
 }
