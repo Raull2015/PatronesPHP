@@ -1,6 +1,6 @@
 <?php
 
-	class listaB {
+	class ListaB {
 		$listaEnteros = array();
 
 		public function agregarNumero($num){

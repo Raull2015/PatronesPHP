@@ -1,13 +1,5 @@
 <?php
 
-	class listaB {
-		$listaEnteros = array();
-
-		public function agregarNumero($num){
-			array_push($listaEnteros, $num)
-		}
-	}
-
 	class ListaA {
 		$lista = array();
 		$op;
